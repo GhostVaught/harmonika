@@ -156,8 +156,12 @@ h6 {
 
 @media (max-width: 767px) {
     #intro .intro-text {
-        padding-top: 50px;
+        padding-top: 150px;
     }
+  #intro {
+    height: 80vh;
+    max-width: 768px;
+  }
 }
 
 #intro h2 {
