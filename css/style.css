@@ -1167,7 +1167,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 100%;
     float: left;
     background-color: red;
-    height: 150vh;
+    height: 100vh;
     background-size: 100%;
     padding: 10px 0px 25px 0px;
     background-repeat: no-repeat;
