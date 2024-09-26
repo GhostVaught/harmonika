@@ -460,6 +460,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: black;
     text-align: center;
     font-weight: 400;
+  padding-top: 25px;
 }
 
 .section-header .section-description {
