@@ -1178,11 +1178,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: flex;
     flex-direction: row;
     background-color: red;
+    padding: 60px;
 }
 
 .banner img {
-    width: 375px;
-    height: 375px;
+    width: 400px;
+    height: 400px;
+    padding-top: 40px;
 }
 
 .banner_taital {
@@ -1279,12 +1281,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 768px) {
     .banner {
         flex-direction: column-reverse;
+        padding: 25px;
     }
     .banner_section {
         height: 150vh;
     }
     .there_text {
         width: 100%;
+    }
+    .banner img {
+        height: 375px;
+        width: 375px;
+        padding-top: 0;
     }
 }
 
