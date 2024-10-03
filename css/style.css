@@ -1162,6 +1162,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 }
 /* banner section start */
+.kotak-merah {
+  background-color: red;
+}
+
 
 .banner_section {
     width: 100%;
@@ -1279,7 +1283,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .pesan {
-    width: 250px;
+    margin:40px;
 }
 
 .pesan a {
