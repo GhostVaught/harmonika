@@ -7,6 +7,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
+
 body {
     background: #fff;
     color: #666666;
@@ -1107,7 +1110,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 /* banner section start */
 .kotak-merah {
-  background-color: red;
+  background: red;
 }
 
 
@@ -1228,13 +1231,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .pesan {
     margin: 40px;
+    background-color: red;
 }
 
 .pesan a {
     width: 100%;
     float: left;
     padding-right: 0;
-    background-color: white; /*#252525;*/
+    background-color: red; 
     color: black;
     text-align: center;
     margin-right: 12px;
@@ -1244,10 +1248,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-transform: uppercase;
     font-weight: 600;
     border-radius: 50px;
+    color: white;
 }
 
 .pesan a:hover {
-    background-color: #f76d37;
+    background-color: lightcoral;
     color: #fff;
 }
 
